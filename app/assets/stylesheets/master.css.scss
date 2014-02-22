@@ -9,7 +9,7 @@
 }
 
 body {
-  background: url('corkcrossstich.jpg') no-repeat center center fixed; 
+  background: url('stainedcorks.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -36,4 +36,8 @@ body {
 h3 {
 	color: black;
 	text-align: center;
+}
+
+img {
+	src: 'fiascologo.jpg';
 }
