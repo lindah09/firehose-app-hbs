@@ -1,0 +1,39 @@
+
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+@import url(http://fonts.googleapis.com/css?family=Parisienne);
+
+.smurfy {
+	box-shadow: 1px 1px 1px 1px rgba(36,32,33,0.50);
+	background-color: rgba(36,32,33,0.50);
+	padding: 1%;
+}
+
+body {
+  background: url('corkcrossstich.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.custom-h1 {
+	color: #732009;
+	text-align: center;
+	font-weight: 100;
+	font-size: 150px;
+	font-family: 'Gabriela','Helvetica sans-serif';
+	text-shadow: 2px 2px white;
+}
+
+.custom-h2 {
+	color: white;
+	text-align: center;
+	font-weight: 80;
+	font-size: 40px;
+	font-family: 'Parisienne';
+}
+
+h3 {
+	color: black;
+	text-align: center;
+}
