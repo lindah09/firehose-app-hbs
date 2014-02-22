@@ -1,10 +1,15 @@
 
-<div class="smurfy text-left">
+<div class="smurfy span5 offset4 text-left">
+	<br/>
 
+	<h1 class='custom-h1'>Mood check</h1>
+
+	<br/>
+	<br/>
 	<%= simple_form_for @pic do |f| %>
-		<%= f.input :title %>
-		<%= f.input :subtitle %>
-		<%= f.input :message %>
+		<%= f.input :title, label: 'What is the time of day?', placeholder: 'e.g. Sunset'%>
+		<%= f.input :subtitle, label: 'How do you feel?', placeholder: 'e.g. Need to freshen up'%>
+		<%= f.input :message, label: 'Gimme a hashtag', placeholder: 'e.g. #bignight'%>
 
 		<%= f.submit "Save" %>
 
