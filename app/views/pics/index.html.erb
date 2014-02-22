@@ -1,0 +1,19 @@
+<% @pics.each do |pic| %>
+
+<div class="span4 smurfy text-left">
+	<h1>
+		<%= pic.title %>
+	</h1>
+	<br/>
+	<h2 class="custom-h2-pics">
+		<%= pic.subtitle %>
+	</h2>
+	<br/>
+	<h3>
+		<%= pic.message %>
+	</h3>
+
+</div>
+
+
+<% end %>

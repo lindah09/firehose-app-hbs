@@ -6,6 +6,7 @@
 	box-shadow: 1px 1px 1px 1px rgba(36,32,33,0.50);
 	background-color: rgba(36,32,33,0.50);
 	padding: 1%;
+	color: white;
 }
 
 body {
@@ -23,6 +24,7 @@ body {
 	font-size: 150px;
 	font-family: 'Gabriela','Helvetica sans-serif';
 	text-shadow: 2px 2px white;
+	line-height: 50px;
 }
 
 .custom-h2 {
@@ -33,9 +35,18 @@ body {
 	font-family: 'Parisienne';
 }
 
-h3 {
-	color: black;
+.custom-h2-pics {
+	color: white;
 	text-align: center;
+	font-weight: 50;
+	font-size: 30px;
+	font-family: 'Parisienne';
+}
+
+h3 {
+	color: white;
+	text-align: left;
+	font-size: 30px;
 }
 
 img {
